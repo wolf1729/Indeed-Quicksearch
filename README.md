@@ -87,7 +87,7 @@ All searches are processed locally within your browser.
 ## 🧑‍💻 Author
 
 **Aryan Mishra**
-💼 [Your LinkedIn](https://www.linkedin.com/in/aryan-mishra-78578b22a/)
+💼 [LinkedIn](https://www.linkedin.com/in/aryan-mishra-78578b22a/)
 📦 [GitHub](https://github.com/wolf1729)
 
 ---
