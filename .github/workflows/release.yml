@@ -12,5 +12,5 @@ jobs:
         client_secret: ${{ secrets.CLIENT_SECRET }}
         refresh_token: ${{ secrets.REFRESH_TOKEN }}
         zip_file: ./dist/indeed-quicksearch.zip
-        publish: true
+        publish: false
 
