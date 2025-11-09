@@ -1,8 +1,9 @@
-name: Publish to Chrome Web Store
+name: 🚀 Publish to Chrome Web Store
 
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -16,9 +17,9 @@ jobs:
       - name: Upload & Publish to Chrome Web Store
         uses: Klemensas/chrome-extension-upload-action@master
         with:
-          extension_id: ${{ secrets.EXTENSION_ID }}
-          client_id: ${{ secrets.CLIENT_ID }}
-          client_secret: ${{ secrets.CLIENT_SECRET }}
-          refresh_token: ${{ secrets.REFRESH_TOKEN }}
-          zip_file: ./dist/indeed-quicksearch.zip
-          publish: false
+          app-id: ${{ secrets.EXTENSION_ID }}
+          client-id: ${{ secrets.CLIENT_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          refresh-token: ${{ secrets.REFRESH_TOKEN }}
+          file-name: ./dist/indeed-quicksearch.zip
+          publish: true
