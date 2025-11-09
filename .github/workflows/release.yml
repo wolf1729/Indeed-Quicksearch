@@ -1,16 +1,24 @@
 name: Publish to Chrome Web Store
+
 on:
   push:
     branches: [ main ]
 
 jobs:
-  - name: Upload & Publish to Chrome Web Store
-    uses: Klemensas/chrome-extension-upload-action@master
-    with:
-        extension_id: ${{ secrets.EXTENSION_ID }}
-        client_id: ${{ secrets.CLIENT_ID }}
-        client_secret: ${{ secrets.CLIENT_SECRET }}
-        refresh_token: ${{ secrets.REFRESH_TOKEN }}
-        zip_file: ./dist/indeed-quicksearch.zip
-        publish: false
+  publish:
+    name: Upload & Publish to Chrome Web Store
+    runs-on: ubuntu-latest
 
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Upload & Publish to Chrome Web Store
+        uses: Klemensas/chrome-extension-upload-action@master
+        with:
+          extension_id: ${{ secrets.EXTENSION_ID }}
+          client_id: ${{ secrets.CLIENT_ID }}
+          client_secret: ${{ secrets.CLIENT_SECRET }}
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
+          zip_file: ./dist/indeed-quicksearch.zip
+          publish: false
