@@ -86,7 +86,7 @@ All searches are processed locally within your browser.
 
 ## 🧑‍💻 Author
 
-**[Your Name]**
+**Aryan Mishra**
 💼 [Your LinkedIn](https://www.linkedin.com/in/aryan-mishra-78578b22a/)
 📦 [GitHub](https://github.com/wolf1729)
 
@@ -100,4 +100,3 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ### ⭐ If you find this useful, give the repo a star on GitHub!
 
-```
