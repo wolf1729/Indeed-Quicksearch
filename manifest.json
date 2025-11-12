@@ -3,7 +3,6 @@
   "name": "Indeed Quicksearch",
   "version": "1.0",
   "description": "Search through your applied jobs on Indeed.",
-  "permissions": ["activeTab"],
   "host_permissions": [
     "https://in.indeed.com/*"
   ],
