@@ -98,5 +98,5 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ---
 
-### ⭐ If you find this useful, give the repo a star on GitHub!
+### ⭐ If you find this useful, give the repo a star on GitHub!    
 
